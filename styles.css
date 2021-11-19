@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    color: #000;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.sidebar {
+    display: flex;
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    background-color: #4682b4;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.sidebar ul {
+    margin-top: 150px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.sidebar ul li {
+    list-style-type: none;
+    font-size: 14pt;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 15px;
+    color: #fff;
+    border-radius: 25px 0 0 25px;
+}
+
+.sidebar ul a {
+    width: 100%;
+    
+}
+
+.sidebar ul li:hover {
+    background-color: #fff;
+    color: #4682b4;
+}
+
+.content {
+    margin-left: 280px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.perfil-card {
+    width: 500px;
+    border: solid 1px #4682b4;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px #4682b4;
+    padding: 15px;
+}
+
+.perfilName {
+    font-size: 18pt;
+    color: #4682b4
+}
+
+.aboutContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.aboutText {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    width: 300px;
+}
+
+.aboutText p {
+    font-size: 10pt;
+    text-align: justify;
+    opacity: .7;
+}
+
+#sobre {
+    font-size: 14pt;
+    margin-bottom: 5px;
+    color: #4682b4;
+    font-style: italic;
+}
+
+.foto-perfil {
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+    border: solid 3px #4682b4;
+}
+
+
+.content>p,.techList li {
+    opacity: .7;
+} 
+
+.content>p {
+    margin-top: 20px;
+}
+
+.techList li {
+    margin-top: 5px;
+}
+
+.techList {
+    list-style-type: none;
+}
+
+.blogButton {
+    padding: 15px;
+    width: 280px;
+    font-weight: bold;
+    border-radius: 25px;
+    background-color: #4682b4;
+    color: #fff;
+    margin-top: 100px;
+    text-align: center;
+    align-self: center;
+}
+
+.blogButton:hover {
+    filter: brightness(1.2)
+}
