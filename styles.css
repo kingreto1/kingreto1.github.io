@@ -74,7 +74,7 @@ html::-webkit-scrollbar-thumb:hover {
 
 .filter-image {
     margin-top: 120px;
-    background: url(./eu.jpeg);
+    background: url(../images/eu.jpeg);
     filter: opacity(.9);
     width: 100%;
     background-repeat: no-repeat;
